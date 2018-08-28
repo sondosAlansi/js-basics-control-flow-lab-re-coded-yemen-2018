@@ -34,7 +34,7 @@ function switchOnCharmFromTip(Tip){
       case Tip!=='generous':
         message="Thank you";
         break;
-     case'if anything else':
+      default:
       message="Bye";
      
       
