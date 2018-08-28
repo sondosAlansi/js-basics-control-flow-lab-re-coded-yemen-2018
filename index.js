@@ -42,5 +42,5 @@ function switchOnCharmFromTip(Tip){
   
 }
 console.log (switchOnCharmFromTip("generous"));
-console.log (switchOnCharmFromTip("ok"));
+console.log (switchOnCharmFromTip("not as generous"));
 console.log (switchOnCharmFromTip("thanks for everything"));
