@@ -35,7 +35,7 @@ function switchOnCharmFromTip(Tip){
         message='Thank you';
        break;
       default:
-      message='Bye.';
+     console.log('Bye.');
      break;
       
   }
