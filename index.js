@@ -37,7 +37,7 @@ function switchOnCharmFromTip(Tip){
      break;
       
   }
-  return message;
+ 
   
 }
 console.log (switchOnCharmFromTip('generous'));
