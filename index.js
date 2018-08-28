@@ -29,15 +29,17 @@ function switchOnCharmFromTip(Tip){
   let message;
   switch(Tip){
     case 'generous':
-     return message="Thank you so much.";
+      message="Thank you so much.";
       break;
-     
+      case Tip!=='generous':
+        message='Thank you';
+       break;
       default:
-    return  message='Bye.';
+      message='Bye.';
      break;
       
   }
- 
+  return message;
   
 }
 console.log (switchOnCharmFromTip('generous'));
